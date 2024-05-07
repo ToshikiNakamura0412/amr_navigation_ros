@@ -28,7 +28,7 @@ Docker Supported (Demo only)
 | [raycast_mapping_ros](https://github.com/ToshikiNakamura0412/raycast_mapping_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/raycast_mapping_ros/workflows/build/badge.svg) |
 | [scan_to_pcl_ros](https://github.com/ToshikiNakamura0412/scan_to_pcl_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/scan_to_pcl_ros/workflows/build/badge.svg) |
 
-## Use docker
+## Use docker (Demo only)
 ```
 git clone https://github.com/ToshikiNakamura0412/amr_navigation_ros.git
 cd amr_navigation_ros
