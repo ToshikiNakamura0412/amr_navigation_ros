@@ -31,9 +31,12 @@ Docker Supported (Demo only)
 
 ## Use docker (Demo only)
 ```
-git clone https://github.com/ToshikiNakamura0412/amr_navigation_ros.git
-cd amr_navigation_ros
+git clone https://github.com/ToshikiNakamura0412/amr_navigation_ros.git && cd amr_navigation_ros
+
+# build an image, create a container and start demo (Ctrl-c: stop a container and exit)
 docker compose up
+# remove a container
+docker compose down
 ```
 
 ## Not use docker
