@@ -1,19 +1,22 @@
 <?xml version="1.0"?>
 <launch>
-    <include file="$(find a_star_ros)/launch/a_star.launch">
+    <arg name="ns" default="amr_navi"/>
+    <include file="$(find a_star_ros)/launch/a_star.launch" ns="$(arg ns)">
         <arg name="initial_pose_topic" value="/emcl_pose"/>
     </include>
     <include file="$(find dwa_planner)/launch/local_planner.launch">
+        <arg name="ns" value="$(arg ns)"/>
         <arg name="robot_param" value="$(find amr_navigation_ros)/launch/robot_param.yaml"/>
-        <arg name="local_goal" value="/local_goal"/>
+        <arg name="local_goal" value="local_goal"/>
         <arg name="v_path_width" value="0.02"/>
     </include>
-    <include file="$(find emcl_ros)/launch/emcl.launch"/>
-    <include file="$(find local_goal_creator_ros)/launch/local_goal_creator.launch">
+    <include file="$(find emcl_ros)/launch/emcl.launch" ns="$(arg ns)"/>
+    <include file="$(find local_goal_creator_ros)/launch/local_goal_creator.launch" ns="$(arg ns)">
+        <arg name="path_topic" value="path"/>
         <arg name="robot_pose_topic" value="/emcl_pose"/>
         <arg name="target_dist_to_goal" value="1.0"/>
         <arg name="use_direction_in_path" default="true"/>
     </include>
-    <include file="$(find raycast_mapping_ros)/launch/raycast_mapping.launch"/>
-    <include file="$(find scan_to_pcl_ros)/launch/scan_to_pcl.launch"/>
+    <include file="$(find raycast_mapping_ros)/launch/raycast_mapping.launch" ns="$(arg ns)"/>
+    <include file="$(find scan_to_pcl_ros)/launch/scan_to_pcl.launch" ns="$(arg ns)"/>
 </launch>

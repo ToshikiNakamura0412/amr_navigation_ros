@@ -152,7 +152,7 @@ Visualization Manager:
       Shaft Length: 0.23000000417232513
       Shaft Radius: 0.009999999776482582
       Shape: Arrow (Flat)
-      Topic: /particle_cloud
+      Topic: /amr_navi/particle_cloud
       Unreliable: false
       Value: true
     - Alpha: 1
@@ -176,12 +176,12 @@ Visualization Manager:
       Radius: 0.029999999329447746
       Shaft Diameter: 0.10000000149011612
       Shaft Length: 0.10000000149011612
-      Topic: /path
+      Topic: /amr_navi/path
       Unreliable: false
       Value: true
     - Class: rviz/Marker
       Enabled: true
-      Marker Topic: /local_planner/dwa_planner/selected_trajectory
+      Marker Topic: /amr_navi/dwa_planner/selected_trajectory
       Name: SelectedTrajectory
       Namespaces:
         {}
@@ -189,7 +189,7 @@ Visualization Manager:
       Value: true
     - Class: rviz/MarkerArray
       Enabled: true
-      Marker Topic: /local_planner/dwa_planner/candidate_trajectories
+      Marker Topic: /amr_navi/dwa_planner/candidate_trajectories
       Name: CandidateTrajectories
       Namespaces:
         {}
@@ -197,7 +197,7 @@ Visualization Manager:
       Value: true
     - Class: rviz/MarkerArray
       Enabled: true
-      Marker Topic: /local_planner/dwa_planner/predict_footprints
+      Marker Topic: /amr_navi/dwa_planner/predict_footprints
       Name: PredictFootprints
       Namespaces:
         {}
@@ -216,7 +216,7 @@ Visualization Manager:
       Shaft Length: 0.15000000596046448
       Shaft Radius: 0.05000000074505806
       Shape: Arrow
-      Topic: /local_goal
+      Topic: /amr_navi/local_goal
       Unreliable: false
       Value: true
     - Angle Tolerance: 0.009999999776482582
