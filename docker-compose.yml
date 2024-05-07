@@ -6,6 +6,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    tty: true
     environment:
       DISPLAY: $DISPLAY
       TURTLEBOT3_MODEL: burger
