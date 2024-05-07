@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="map_path" default="$(find emcl_ros)/maps/map.yaml"/>
+    <arg name="rviz_path" default="$(find amr_navigation_ros)/launch/rviz.rviz"/>
+
+    <include file="$(find amr_navigation_ros)/launch/gazebo.launch"/>
+    <include file="$(find amr_navigation_ros)/launch/navigation.launch"/>
+    <node pkg="map_server" type="map_server" name="map_server" args="$(arg map_path)" output="screen"/>
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(arg rviz_path)"/>
+</launch>
