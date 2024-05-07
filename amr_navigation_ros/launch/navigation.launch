@@ -1,8 +1,5 @@
 <?xml version="1.0"?>
 <launch>
-    <arg name="rviz_path" default="$(find amr_navigation_ros)/launch/rviz.rviz"/>
-    <arg name="map_path" default="$(find emcl_ros)/maps/map.yaml"/>
-
     <include file="$(find a_star_ros)/launch/a_star.launch">
         <arg name="initial_pose_topic" value="/emcl_pose"/>
     </include>
@@ -19,9 +16,4 @@
     </include>
     <include file="$(find raycast_mapping_ros)/launch/raycast_mapping.launch"/>
     <include file="$(find scan_to_pcl_ros)/launch/scan_to_pcl.launch"/>
-
-    <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_world.launch"/>
-    <include file="$(find turtlebot3_bringup)/launch/turtlebot3_remote.launch"/>
-    <node pkg="rviz" type="rviz" name="rviz" args="-d $(arg rviz_path)"/>
-    <node pkg="map_server" type="map_server" name="map_server" args="$(arg map_path)" output="screen"/>
 </launch>
