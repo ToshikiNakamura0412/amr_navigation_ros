@@ -59,6 +59,26 @@ Visualization Manager:
       Unreliable: false
       Use Timestamp: false
       Value: true
+    - Alpha: 0.15000000596046448
+      Class: rviz/Map
+      Color Scheme: costmap
+      Draw Behind: false
+      Enabled: true
+      Name: InflatedMap
+      Topic: /map/inflated
+      Unreliable: false
+      Use Timestamp: false
+      Value: true
+    - Alpha: 0.20000000298023224
+      Class: rviz/Map
+      Color Scheme: costmap
+      Draw Behind: false
+      Enabled: true
+      Name: LocalMap
+      Topic: /local_map
+      Unreliable: false
+      Use Timestamp: false
+      Value: true
     - Alpha: 1
       Autocompute Intensity Bounds: true
       Autocompute Value Bounds:
@@ -164,7 +184,7 @@ Visualization Manager:
       Marker Topic: /local_planner/dwa_planner/selected_trajectory
       Name: SelectedTrajectory
       Namespaces:
-        "": true
+        {}
       Queue Size: 100
       Value: true
     - Class: rviz/MarkerArray
@@ -172,7 +192,7 @@ Visualization Manager:
       Marker Topic: /local_planner/dwa_planner/candidate_trajectories
       Name: CandidateTrajectories
       Namespaces:
-        "": true
+        {}
       Queue Size: 100
       Value: true
     - Class: rviz/MarkerArray
@@ -180,7 +200,7 @@ Visualization Manager:
       Marker Topic: /local_planner/dwa_planner/predict_footprints
       Name: PredictFootprints
       Namespaces:
-        "": true
+        {}
       Queue Size: 100
       Value: true
     - Alpha: 1
@@ -233,16 +253,6 @@ Visualization Manager:
         Value: Arrow
       Topic: /odom
       Unreliable: false
-      Value: false
-    - Alpha: 0.6000000238418579
-      Class: rviz/Map
-      Color Scheme: costmap
-      Draw Behind: false
-      Enabled: false
-      Name: LocalMap
-      Topic: /local_map
-      Unreliable: false
-      Use Timestamp: false
       Value: false
   Enabled: true
   Global Options:
