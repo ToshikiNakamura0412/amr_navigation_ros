@@ -4,9 +4,14 @@
 
 A 2D navigation metapackage for AMR (Autonomous Mobile Robot)
 
+Docker Supported (Demo only)
+
 ## Environment
 - Ubuntu 20.04
 - ROS Noetic
+
+## Requirement
+- python3-vcstool
 
 ## System
 <p align="center">
@@ -23,7 +28,15 @@ A 2D navigation metapackage for AMR (Autonomous Mobile Robot)
 | [raycast_mapping_ros](https://github.com/ToshikiNakamura0412/raycast_mapping_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/raycast_mapping_ros/workflows/build/badge.svg) |
 | [scan_to_pcl_ros](https://github.com/ToshikiNakamura0412/scan_to_pcl_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/scan_to_pcl_ros/workflows/build/badge.svg) |
 
-## Install and Build
+## Use docker
+```
+git clone https://github.com/ToshikiNakamura0412/amr_navigation_ros.git
+cd amr_navigation_ros
+docker compose up
+```
+
+## Not use docker
+### Install and Build
 ```
 # clone repository
 cd /path/to/your/catkin_ws/src
@@ -33,12 +46,12 @@ vcs import navigation < .rosinstall
 
 # build
 cd /path/to/your/catkin_ws
-rosdep install --from-paths src --ignore-src -y # Install dependencies
-catkin build -DCMAKE_BUILD_TYPE=Release         # Release build is recommended
+rosdep install -riy --from-paths src --rosdistro noetic # Install dependencies
+catkin build -DCMAKE_BUILD_TYPE=Release                 # Release build is recommended
 ```
 
-## Running the demo
-### Using simulator
+### Running the demo
+#### Using simulator
 ```
 # clone repository
 cd /path/to/your/catkin_ws/src
@@ -48,10 +61,10 @@ git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.
 
 # build
 cd /path/to/your/catkin_ws
-rosdep install --from-paths src --ignore-src -y # Install dependencies
-catkin build -DCMAKE_BUILD_TYPE=Release         # Release build is recommended
+rosdep install -riy --from-paths src --rosdistro noetic # Install dependencies
+catkin build -DCMAKE_BUILD_TYPE=Release                 # Release build is recommended
 
 # run demo
 export TURTLEBOT3_MODEL=burger
-roslaunch amr_navigation_ros test.launch
+roslaunch amr_navigation_ros demo.launch
 ```
