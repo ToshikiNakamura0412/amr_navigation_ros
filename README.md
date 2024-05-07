@@ -6,6 +6,10 @@ A 2D navigation metapackage for AMR (Autonomous Mobile Robot)
 
 Docker Supported (Demo only)
 
+<p align="center">
+  <img src="images/demo.gif" width="720px"/>
+</p>
+
 ## Environment
 - Ubuntu 20.04
 - ROS Noetic
