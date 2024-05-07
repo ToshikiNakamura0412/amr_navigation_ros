@@ -9,6 +9,7 @@ Docker Supported (Demo only)
 ## Environment
 - Ubuntu 20.04
 - ROS Noetic
+- (Docker)
 
 ## Requirement
 - python3-vcstool
