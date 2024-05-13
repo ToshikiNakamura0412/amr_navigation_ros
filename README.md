@@ -32,6 +32,8 @@ Docker Supported (Demo only)
 | [local_goal_creator_ros](https://github.com/ToshikiNakamura0412/local_goal_creator_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/local_goal_creator_ros/workflows/build/badge.svg) |
 | [raycast_mapping_ros](https://github.com/ToshikiNakamura0412/raycast_mapping_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/raycast_mapping_ros/workflows/build/badge.svg) |
 | [scan_to_pcl_ros](https://github.com/ToshikiNakamura0412/scan_to_pcl_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/scan_to_pcl_ros/workflows/build/badge.svg) |
+| [waypoint_editor_ros](https://github.com/ToshikiNakamura0412/waypoint_editor_ros.git) |  |
+| [waypoint_manager_ros](https://github.com/ToshikiNakamura0412/waypoint_manager_ros.git) |  |
 
 ## Use docker (Demo only)
 ```
