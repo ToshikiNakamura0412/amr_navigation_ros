@@ -27,3 +27,13 @@
     local-name: scan_to_pcl_ros
     uri: https://github.com/ToshikiNakamura0412/scan_to_pcl_ros.git
     version: master
+
+- git:
+    local-name: waypoint_editor_ros
+    uri: https://github.com/ToshikiNakamura0412/waypoint_editor_ros.git
+    version: master
+
+- git:
+    local-name: waypoint_manager_ros
+    uri: https://github.com/ToshikiNakamura0412/waypoint_manager_ros.git
+    version: master
