@@ -6,6 +6,8 @@ A 2D navigation metapackage for AMR (Autonomous Mobile Robot)
 
 Docker Supported (Demo only)
 
+This package is also used in [roomba_navigation_ros](https://github.com/ToshikiNakamura0412/roomba_navigation_ros.git)
+
 <p align="center">
   <img src="images/demo.gif" width="720px"/>
 </p>
