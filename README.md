@@ -27,6 +27,7 @@ Docker Supported (Demo only)
 | Package | Build Status |
 | ------ | ------|
 | [a_star_ros](https://github.com/ToshikiNakamura0412/a_star_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/a_star_ros/workflows/build/badge.svg) |
+| [base_controller_ros](https://github.com/ToshikiNakamura0412/base_controller_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/base_controller_ros/workflows/build/badge.svg) |
 | [dwa_planner](https://github.com/amslabtech/dwa_planner.git) | ![Build Status](https://github.com/amslabtech/dwa_planner/workflows/CI/badge.svg) |
 | [emcl_ros](https://github.com/ToshikiNakamura0412/emcl_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/emcl_ros/workflows/build/badge.svg) |
 | [local_goal_creator_ros](https://github.com/ToshikiNakamura0412/local_goal_creator_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/local_goal_creator_ros/workflows/build/badge.svg) |

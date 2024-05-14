@@ -4,6 +4,11 @@
     version: master
 
 - git:
+    local-name: base_controller_ros
+    uri: https://github.com/ToshikiNakamura0412/base_controller_ros.git
+    version: master
+
+- git:
     local-name: dwa_planner
     uri: https://github.com/amslabtech/dwa_planner.git
     version: master
