@@ -1,4 +1,4 @@
-# a_star_ros
+# pkg_name
 
 ![Build Status](https://github.com/ToshikiNakamura0412/<pkg_name>/workflows/build/badge.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
