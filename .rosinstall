@@ -19,6 +19,11 @@
     version: master
 
 - git:
+    local-name: gyrodometry_ros
+    uri: https://github.com/ToshikiNakamura0412/gyrodometry_ros.git
+    version: master
+
+- git:
     local-name: local_goal_creator_ros
     uri: https://github.com/ToshikiNakamura0412/local_goal_creator_ros.git
     version: master

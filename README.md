@@ -32,6 +32,7 @@ This package is also used in [roomba_navigation_ros](https://github.com/ToshikiN
 | [base_controller_ros](https://github.com/ToshikiNakamura0412/base_controller_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/base_controller_ros/workflows/build/badge.svg) | C++ |
 | [dwa_planner](https://github.com/amslabtech/dwa_planner.git) | ![Build Status](https://github.com/amslabtech/dwa_planner/workflows/CI/badge.svg) | C++ |
 | [emcl_ros](https://github.com/ToshikiNakamura0412/emcl_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/emcl_ros/workflows/build/badge.svg) | C++ |
+| [gyrodometry_ros](https://github.com/ToshikiNakamura0412/gyrodometry_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/gyrodometry_ros/workflows/build/badge.svg) | C++ |
 | [local_goal_creator_ros](https://github.com/ToshikiNakamura0412/local_goal_creator_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/local_goal_creator_ros/workflows/build/badge.svg) | C++ |
 | [raycast_mapping_ros](https://github.com/ToshikiNakamura0412/raycast_mapping_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/raycast_mapping_ros/workflows/build/badge.svg) | C++ |
 | [scan_to_pcl_ros](https://github.com/ToshikiNakamura0412/scan_to_pcl_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/scan_to_pcl_ros/workflows/build/badge.svg) | C++ |
