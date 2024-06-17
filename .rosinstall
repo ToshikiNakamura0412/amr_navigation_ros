@@ -24,6 +24,11 @@
     version: master
 
 - git:
+    local-name: icp_matching_ros
+    uri: https://github.com/ToshikiNakamura0412/icp_matching_ros.git
+    version: master
+
+- git:
     local-name: local_goal_creator_ros
     uri: https://github.com/ToshikiNakamura0412/local_goal_creator_ros.git
     version: master
