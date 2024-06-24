@@ -1,5 +1,3 @@
-version: "3.9"
-
 services:
   demo:
     container_name: amr_navigation_ros
