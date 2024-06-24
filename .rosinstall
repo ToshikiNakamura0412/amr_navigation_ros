@@ -1,4 +1,9 @@
 - git:
+    local-name: amr_navigation_utils_ros
+    uri: https://github.com/ToshikiNakamura0412/amr_navigation_utils_ros.git
+    version: master
+
+- git:
     local-name: a_star_ros
     uri: https://github.com/ToshikiNakamura0412/a_star_ros.git
     version: master
@@ -19,6 +24,11 @@
     version: master
 
 - git:
+    local-name: gridmap_to_pointcloud_ros
+    uri: https://github.com/ToshikiNakamura0412/gridmap_to_pointcloud_ros.git
+    version: master
+
+- git:
     local-name: gyrodometry_ros
     uri: https://github.com/ToshikiNakamura0412/gyrodometry_ros.git
     version: master
@@ -34,8 +44,18 @@
     version: master
 
 - git:
+    local-name: pointcloud_storer_ros
+    uri: https://github.com/ToshikiNakamura0412/pointcloud_storer_ros.git
+    version: master
+
+- git:
     local-name: raycast_mapping_ros
     uri: https://github.com/ToshikiNakamura0412/raycast_mapping_ros.git
+    version: master
+
+- git:
+    local-name: recovery_behavior_ros
+    uri: https://github.com/ToshikiNakamura0412/recovery_behavior_ros.git
     version: master
 
 - git:
