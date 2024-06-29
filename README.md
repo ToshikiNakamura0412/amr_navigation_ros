@@ -36,6 +36,7 @@ This package is also used in [roomba_navigation_ros](https://github.com/ToshikiN
 | [gridmap_to_pointcloud_ros](https://github.com/ToshikiNakamura0412/gridmap_to_pointcloud_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/gridmap_to_pointcloud_ros/workflows/build/badge.svg) | C++ |
 | [gyrodometry_ros](https://github.com/ToshikiNakamura0412/gyrodometry_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/gyrodometry_ros/workflows/build/badge.svg) | C++ |
 | [icp_matching_ros](https://github.com/ToshikiNakamura0412/icp_matching_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/icp_matching_ros/workflows/build/badge.svg) | C++ |
+| [likelihood_field_gridmap_ros](https://github.com/ToshikiNakamura0412/likelihood_field_gridmap_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/likelihood_field_gridmap_ros/workflows/build/badge.svg) | C++ |
 | [local_goal_creator_ros](https://github.com/ToshikiNakamura0412/local_goal_creator_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/local_goal_creator_ros/workflows/build/badge.svg) | C++ |
 | [pointcloud_storer_ros](https://github.com/ToshikiNakamura0412/pointcloud_storer_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/pointcloud_storer_ros/workflows/build/badge.svg) | C++ |
 | [raycast_mapping_ros](https://github.com/ToshikiNakamura0412/raycast_mapping_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/raycast_mapping_ros/workflows/build/badge.svg) | C++ |

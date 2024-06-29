@@ -39,6 +39,11 @@
     version: master
 
 - git:
+    local-name: likelihood_field_gridmap_ros
+    uri: https://github.com/ToshikiNakamura0412/likelihood_field_gridmap_ros.git
+    version: master
+
+- git:
     local-name: local_goal_creator_ros
     uri: https://github.com/ToshikiNakamura0412/local_goal_creator_ros.git
     version: master
