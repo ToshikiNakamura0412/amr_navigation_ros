@@ -73,9 +73,9 @@ catkin build -DCMAKE_BUILD_TYPE=Release                 # Release build is recom
 ```
 # clone repository
 cd /path/to/your/catkin_ws/src
-git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
-git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3.git
-git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+git clone -b noetic https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+git clone -b noetic https://github.com/ROBOTIS-GIT/turtlebot3.git
+git clone -b noetic https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
 
 # build
 cd /path/to/your/catkin_ws
