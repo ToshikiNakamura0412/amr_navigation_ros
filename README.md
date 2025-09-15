@@ -29,7 +29,7 @@ Docker Supported (Demo only)
 | [amr_navigation_utils_ros](https://github.com/ToshikiNakamura0412/amr_navigation_utils_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/amr_navigation_utils_ros/workflows/build/badge.svg) | C++ |
 | [a_star_ros](https://github.com/ToshikiNakamura0412/a_star_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/a_star_ros/workflows/build/badge.svg) | C++ |
 | [base_controller_ros](https://github.com/ToshikiNakamura0412/base_controller_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/base_controller_ros/workflows/build/badge.svg) | C++ |
-| [dwa_planner](https://github.com/amslabtech/dwa_planner.git) | ![Build Status](https://github.com/amslabtech/dwa_planner/workflows/CI/badge.svg) | C++ |
+| [dwa_planner](https://github.com/amslabtech/dwa_planner.git) | [![ci](https://github.com/amslabtech/dwa_planner/actions/workflows/main.yml/badge.svg)](https://github.com/amslabtech/dwa_planner/actions/workflows/main.yml) | C++ |
 | [emcl_ros](https://github.com/ToshikiNakamura0412/emcl_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/emcl_ros/workflows/build/badge.svg) | C++ |
 | [gridmap_to_pointcloud_ros](https://github.com/ToshikiNakamura0412/gridmap_to_pointcloud_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/gridmap_to_pointcloud_ros/workflows/build/badge.svg) | C++ |
 | [gyrodometry_ros](https://github.com/ToshikiNakamura0412/gyrodometry_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/gyrodometry_ros/workflows/build/badge.svg) | C++ |
