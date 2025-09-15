@@ -16,7 +16,7 @@
 - git:
     local-name: dwa_planner
     uri: https://github.com/amslabtech/dwa_planner.git
-    version: master
+    version: 6387a9660c2064fa0545ac81d55f4bbe7962651f
 
 - git:
     local-name: emcl_ros
