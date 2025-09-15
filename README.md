@@ -40,8 +40,8 @@ Docker Supported (Demo only)
 | [raycast_mapping_ros](https://github.com/ToshikiNakamura0412/raycast_mapping_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/raycast_mapping_ros/workflows/build/badge.svg) | C++ |
 | [recovery_behavior_ros](https://github.com/ToshikiNakamura0412/recovery_behavior_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/recovery_behavior_ros/workflows/build/badge.svg) | C++ |
 | [scan_to_pcl_ros](https://github.com/ToshikiNakamura0412/scan_to_pcl_ros.git) | ![Build Status](https://github.com/ToshikiNakamura0412/scan_to_pcl_ros/workflows/build/badge.svg) | C++ |
-| [waypoint_editor_ros](https://github.com/ToshikiNakamura0412/waypoint_editor_ros.git) |  | Python |
-| [waypoint_manager_ros](https://github.com/ToshikiNakamura0412/waypoint_manager_ros.git) |  | Python |
+| [waypoint_editor_ros](https://github.com/ToshikiNakamura0412/waypoint_editor_ros.git) | [![lint](https://github.com/ToshikiNakamura0412/waypoint_editor_ros/actions/workflows/lint.yaml/badge.svg)](https://github.com/ToshikiNakamura0412/waypoint_editor_ros/actions/workflows/lint.yaml) | Python |
+| [waypoint_manager_ros](https://github.com/ToshikiNakamura0412/waypoint_manager_ros.git) | [![lint](https://github.com/ToshikiNakamura0412/waypoint_manager_ros/actions/workflows/lint.yaml/badge.svg)](https://github.com/ToshikiNakamura0412/waypoint_manager_ros/actions/workflows/lint.yaml) | Python |
 
 ## Use docker (Demo only)
 ```
