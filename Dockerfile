@@ -29,9 +29,9 @@ RUN mkdir src && /bin/bash -c "source /opt/ros/noetic/setup.bash && catkin build
 # install and build
 WORKDIR /home/$USERNAME/ws/src
 RUN git clone https://github.com/ToshikiNakamura0412/amr_navigation_ros.git \
-    && git clone -b noetic https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git \
-    && git clone -b noetic https://github.com/ROBOTIS-GIT/turtlebot3.git \
-    && git clone -b noetic https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+    && git clone -b noetic https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git --depth 1 --single-branch \
+    && git clone -b noetic https://github.com/ROBOTIS-GIT/turtlebot3.git --depth 1 --single-branch \
+    && git clone -b noetic https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git --depth 1 --single-branch
 WORKDIR /home/$USERNAME/ws/src/amr_navigation_ros
 RUN vcs import navigation < .rosinstall
 WORKDIR /home/$USERNAME/ws
