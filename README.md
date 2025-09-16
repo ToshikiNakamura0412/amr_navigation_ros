@@ -1,5 +1,6 @@
 # amr_navigation_ros
 
+[![CI](https://github.com/ToshikiNakamura0412/amr_navigation_ros/actions/workflows/ci.yml/badge.svg)](https://github.com/ToshikiNakamura0412/amr_navigation_ros/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A 2D navigation metapackage for AMR (Autonomous Mobile Robot)
