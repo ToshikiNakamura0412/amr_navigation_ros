@@ -18,7 +18,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-     - name: Validate compose file
+      - name: Validate compose file
         run: docker compose -f docker-compose.yml config -q
 
       - name: Build images
